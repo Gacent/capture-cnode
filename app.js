@@ -29,7 +29,6 @@ app.get("/", function(req, res) {
 	//		})
 	//	});
 	
-	
 	//promise写法
 	var items = [];
 	getWang("https://cnodejs.org/").then(function(data) {
